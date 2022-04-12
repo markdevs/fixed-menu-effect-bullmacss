@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;500;600&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+    background-color: rgb(230, 151, 6);
+   
+}
+
+h4::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-top: 14px;
+    background-color: rgb(230, 151, 6);
+}
+
+p,
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #535353;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+
+
+.banner_header {
+    width: 100%;
+    height: 800px;
+    background: url('../assets/images/man-g52e1fbd7c_1920.webp');
+    background-size: cover;
+    background-position: center center
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+
+.navbar {
+    background-color: transparent;
+    padding: 0 70px;
+}
+
+.navbar.is-fixed-top {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.navbar-item img {
+    max-height: 6rem;
+}
+
+a.navbar-item {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+a.navbar-item:hover {
+    background-color: transparent;
+    color: rgb(230, 151, 6);
+}
+
+.is-fixed-top > div > a.logo {
+    color: #424242;
+}
+
+.is-fixed-top>div>div>a.navbar-item {
+    color: #424242;
+}
+
+.is-fixed-top>div>div>a.navbar-item:hover {
+    background-color: transparent;
+    color: rgb(230, 151, 6) !important;
+}
+
+.cta {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_msg {
+    width: 50%;
+}
+
+.cta_msg h1 {
+    font-size: 3.5em;
+    color: #fff;
+    line-height: 1.2;
+   
+}
+
+.cta_msg p {
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.arrow-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+.arrow-bottom img {
+
+    width: 30px;
+
+}
+
+.cta_msg.animate__animated.animate__headShake {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: headShake infinite;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+img.animate__animated.animate__bounce {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce infinite;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+
+.about_us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 70px 0;
+}
+
+.title_about, .text_about {
+    width: 60%;
+    min-width: 400px;
+    padding:10px;
+}
+
+
+.title_about h2 {
+    font-size: 3rem;
+}
+
+.act_area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 70px 0;
+    background-color: #ebebeb;
+}
+
+.title_area h2 {
+    font-size: 3rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.card {
+    width: 390px;
+    height: 560px;
+    margin: 15px;
+    transition: .4s;
+}
+
+.card:hover {
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.count {
+    width: 13%;
+    text-align: center;
+}
+
+.statistics__amount {
+    font-size:4rem !important;
+    color: rgb(230, 151, 6);
+    font-weight: bold;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.count p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.eq_cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.crew h2 {
+    font-size: 3rem;
+    padding: 70px 0;
+}
+
+.member {
+    width: 370px;
+    height: 516px;
+    margin: 20px;
+}
+
+.member h3 {
+    margin: 20px 0;
+}
